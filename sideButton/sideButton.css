@@ -1,0 +1,25 @@
+.input {
+    background-color: rgba(120, 120, 120, 0.6);
+    border: 0;
+    font-weight: 800;
+    top: 46%;
+    width: 3%;
+    height: 8%;
+    transition : 0.3s;
+}
+
+.input:hover {
+    background-color: rgba(200, 200, 200, 0.6);
+}
+
+#leftButton {
+    border-radius: 0px 20px 20px 0px;
+    position: fixed;
+    left: -3%;
+}
+
+#rightButton {
+    border-radius: 20px 0px 0px 20px;
+    position: fixed;
+    right: -3%;
+}
