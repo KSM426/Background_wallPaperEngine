@@ -11,12 +11,12 @@ class App{
 
         this.schedule = document.querySelector('#scheduleBody');
         
-        for(let i=0; i<=18; i++) {
+        for(let i=0; i<=15; i++) {
             this.tr = document.createElement('tr');
-            this.td = document.createElement('td');
-            this.td.textContent = (i+7<10 ? '0' : '') + String(i+7 >= 24 ? i-17 : i+7) + ':00';
-            this.tr.appendChild(this.td);
-            for(let j=0; j<7; j++) {
+            // this.td = document.createElement('td');
+            // this.td.textContent = (i+7<10 ? '0' : '') + String(i+7 >= 24 ? i-17 : i+7) + ':00';
+            // this.tr.appendChild(this.td);
+            for(let j=0; j<8; j++) {
                 var td = document.createElement('td');
                 td.innerHTML = this.sch[i][j];
                 td.classList = this.sch_color[this.sch[i][j]];
