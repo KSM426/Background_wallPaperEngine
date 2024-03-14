@@ -11,7 +11,7 @@ class App{
 
         this.schedule = document.querySelector('#scheduleBody');
         
-        for(let i=0; i<=17; i++) {
+        for(let i=0; i<=16; i++) {
             this.tr = document.createElement('tr');
             // this.td = document.createElement('td');
             // this.td.textContent = (i+7<10 ? '0' : '') + String(i+7 >= 24 ? i-17 : i+7) + ':00';
